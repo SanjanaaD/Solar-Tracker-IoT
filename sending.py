@@ -27,7 +27,7 @@ while True:
         break
     
 df1= pd.DataFrame(H) 
-df2=pd.DataFrame(H)
+df2=pd.DataFrame(V)
 df3= pd.DataFrame(time)
 
 result = pd.concat([df1, df2, df3], axis=1, sort=False)
